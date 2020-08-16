@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: d33c32fb0cb61454e8c9cf35c4db8da0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6861894420282137670
+    second: person_0
+  - first:
+      213: -7592463368050987717
+    second: person_1
+  - first:
+      213: 2785487252444896389
+    second: Ground
+  - first:
+      213: 5942938236315010082
+    second: Fire Ball
+  - first:
+      213: 4163744674370200601
+    second: Ice
+  - first:
+      213: -8863321754108521893
+    second: person_4
+  - first:
+      213: 5871441334544041340
+    second: Frog Idle
+  - first:
+      213: -1723351912873679875
+    second: Ice ball
+  - first:
+      213: 286518434546666578
+    second: Frog head
+  - first:
+      213: -165335670386187087
+    second: Frog theigh
+  - first:
+      213: 6962579781589173454
+    second: Frog leg
+  - first:
+      213: -2979782634355514491
+    second: person_10
+  - first:
+      213: 7819878817054457122
+    second: Ground
+  - first:
+      213: -673730042160572644
+    second: Frog foot
+  - first:
+      213: -7248785658279930955
+    second: person_13
+  - first:
+      213: 1337698111788429637
+    second: person_14
+  - first:
+      213: -4236523033704946086
+    second: person_15
+  - first:
+      213: -3331981649216993435
+    second: person_16
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: person_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 608
+        width: 276
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -85, y: -201.5}
+        - {x: -138, y: 38.5}
+        - {x: -136, y: 201.5}
+        - {x: -29, y: 201.5}
+        - {x: 19, y: 161.5}
+        - {x: 128, y: 150.5}
+        - {x: 138, y: 92.5}
+        - {x: 87, y: -201.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73b39ff2edf94650ba7289b18a5c392
+      internalID: 6861894420282137670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 608
+        width: 270
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 133, y: 181.5}
+        - {x: -135, y: 181.5}
+        - {x: -135, y: 125.5}
+        - {x: -82, y: 92.5}
+        - {x: -135, y: 48.5}
+        - {x: -47, y: -14.5}
+        - {x: -39, y: -143.5}
+        - {x: 6, y: -181.5}
+        - {x: 65, y: -181.5}
+        - {x: 117, y: -95.5}
+        - {x: 96, y: 14.5}
+        - {x: 135, y: 98.5}
+        - {x: 135, y: 176.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8a45fcb965c4ea2a3a35f3f47065fb
+      internalID: -7592463368050987717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Ball
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 459
+        width: 202
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512a28ade7d174420aacfa4989ce5ead
+      internalID: 5942938236315010082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 407
+        width: 150
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd1f0f68b484bca82a6df4cb1fa7de
+      internalID: 4163744674370200601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 406
+        width: 339
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6297cbbcc1046658fc33a4b607adff
+      internalID: -8863321754108521893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog Idle
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 301
+        width: 148
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b1e195e87c8453384181585aee8068
+      internalID: 5871441334544041340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice ball
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 256
+        width: 185
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e117520419c42f992a5b660ab21a46
+      internalID: -1723351912873679875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog head
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 57
+        width: 168
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ecd6ca6bf754845b37a0423ef77fc1
+      internalID: 286518434546666578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog theigh
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 57
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f4d61d499e4370be90ae3fc1d427b
+      internalID: -165335670386187087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog leg
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 126
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ae2ede85c974c60a73531a69e7832d
+      internalID: 6962579781589173454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 132
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3ba5f4b115a4290b8d5cbd94285cf5
+      internalID: -2979782634355514491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 91
+        width: 233
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9e7d6ec451f407ab8c45b9ec302c3c
+      internalID: 7819878817054457122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog foot
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 56
+        width: 88
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80bf4844d514e89ae5dedf16dd12e7
+      internalID: -673730042160572644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_13
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 42
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e33d2bd6bb74bd7a7c6c53a3227b17
+      internalID: -7248785658279930955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_14
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 66
+        width: 7
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f135c5c0ae33e43f0b0402bed070d360
+      internalID: 1337698111788429637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_15
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec289448f803840ae8e05a5614398fd9
+      internalID: -4236523033704946086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: person_16
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 0
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e141ea50a32465da467fbd53193358
+      internalID: -3331981649216993435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
