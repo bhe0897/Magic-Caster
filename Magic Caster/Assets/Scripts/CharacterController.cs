@@ -10,6 +10,8 @@ public class CharacterController : MonoBehaviour
 
     public float JumpSpeed = 10;
     private Rigidbody2D rb;
+
+    public GameObject FireBallPrefab, IceBallPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,5 +31,18 @@ public class CharacterController : MonoBehaviour
         rb.velocity = new Vector2(horizontalMoveMent * moveSpeed, rb.velocity.y);
 
         if (Input.GetKeyDown(KeyCode.Space)) rb.AddForce(new Vector2(0, JumpSpeed));
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Projectile fireBall = Instantiate(FireBallPrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
+            fireBall.Activate(transform.localScale.x > 0 ? true : false);
+        }
+
+        if (Input.GetButtonDown(1))
+        {
+            Projectile fireBall = Instantiate(IceBallPrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
+            fireBall.Activate(transform.localScale.x > 0 ? true : false);
+        }
+
     }
 }

@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: b88ce4c41fab34eb2a4f0dea558cfe5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1302723820812287101
+    second: Block
+  - first:
+      213: 6146782616825927046
+    second: Staires down
+  - first:
+      213: 7507785236852612746
+    second: Slop up
+  - first:
+      213: 3766885766661273901
+    second: Staires up
+  - first:
+      213: -941724672880465994
+    second: Slop down
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 255
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Block
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1719
+        width: 399
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -198.3047, y: 201.76639}
+        - {x: -198.3047, y: -201.01492}
+        - {x: 198.91795, y: -201.01492}
+        - {x: 198.91795, y: 201.76639}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58ed22765e14f6aaff6cd935f18cad
+      internalID: 1302723820812287101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staires down
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1728
+        width: 394
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -192.66652, y: 197.5}
+        - {x: -195.38722, y: 197.15892}
+        - {x: -195.38722, y: -39.61118}
+        - {x: -188.58546, y: -196.09717}
+        - {x: 197, y: -196.09717}
+        - {x: 197, y: -175.68594}
+        - {x: -174.98195, y: 197.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c880d45e59c4a5e8b16f3521816211
+      internalID: 6146782616825927046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slop up
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1283
+        width: 1345
+        height: 728
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 271.5, y: 364}
+        - {x: -288.5, y: 44}
+        - {x: -672.5, y: 40}
+        - {x: -672.5, y: -362.14392}
+        - {x: -280.5, y: -364}
+        - {x: 293.5, y: -39}
+        - {x: 668.5, y: -43}
+        - {x: 672.5, y: 364}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc48523d5a1e45a688a3cf496792dc1
+      internalID: 7507785236852612746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staires up
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1197
+        width: 394
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 177.07129, y: 198}
+        - {x: -192.94434, y: -173.27292}
+        - {x: -192.94434, y: -192.32338}
+        - {x: -191.58398, y: -196.40562}
+        - {x: 190.6748, y: -196.40562}
+        - {x: 197, y: -185.51964}
+        - {x: 197, y: 198}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5cd4dbc3554bf9a6ce396b789d59d
+      internalID: 3766885766661273901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slop down
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 227
+        width: 1345
+        height: 729
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -670.8301, y: 364.5}
+        - {x: -672.5, y: -43.5}
+        - {x: -294.5, y: -45.5}
+        - {x: 277.33496, y: -358.80185}
+        - {x: 672.5, y: -358.80185}
+        - {x: 672.5, y: 53.504692}
+        - {x: 292.5, y: 42.5}
+        - {x: -266.80566, y: 364.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f422478f1844b60bb7be761c3bb926
+      internalID: -941724672880465994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
