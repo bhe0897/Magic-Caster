@@ -5,7 +5,10 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
 
-
+    private void Awake()
+    {
+        bounceCount = bounceMax;
+    }
     public enum ProjectileTypes
     {
         fire,
@@ -15,7 +18,8 @@ public class Projectile : MonoBehaviour
     public ProjectileTypes ProjectileType;
 
     public float Speed = 20, Strength = 1; //Strength is damage for fire and duration for ice
-    private int bounceCount = 1;
+    private int bounceCount;
+    private const int bounceMax = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,8 +28,9 @@ public class Projectile : MonoBehaviour
 
 
         }
-        else
+        else if(bounceCount < bounceMax || !collision.CompareTag("Player") )
         {
+            Debug.Log(bounceCount);
             if(bounceCount > 0)
             {
                 bounceCount -= 1;
