@@ -29,6 +29,8 @@ public class CharacterController : MonoBehaviour
         float horizontalMoveMent = Input.GetAxis("Horizontal");
 
         rb.velocity = new Vector2(horizontalMoveMent * moveSpeed, rb.velocity.y);
+        if (rb.velocity.x > 0) transform.localScale = new Vector3(1, 1, 1);
+        else if (rb.velocity.x < 0) transform.localScale = new Vector3(-1, 1, 1);
 
         if (Input.GetKeyDown(KeyCode.Space)) rb.AddForce(new Vector2(0, JumpSpeed));
 
@@ -38,7 +40,7 @@ public class CharacterController : MonoBehaviour
             fireBall.Activate(transform.localScale.x > 0 ? true : false);
         }
 
-        if (Input.GetButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
             Projectile fireBall = Instantiate(IceBallPrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
             fireBall.Activate(transform.localScale.x > 0 ? true : false);
