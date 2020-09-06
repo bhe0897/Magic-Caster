@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2879006546744075335}
   - component: {fileID: 2879006546744075328}
   - component: {fileID: 2879006546744075329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slop down
   m_TagString: Untagged
   m_Icon: {fileID: 0}

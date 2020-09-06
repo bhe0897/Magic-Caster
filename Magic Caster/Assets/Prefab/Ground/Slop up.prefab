@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7178521801854074360}
   - component: {fileID: 7178521801854074363}
   - component: {fileID: 7178521801854074362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slop up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
