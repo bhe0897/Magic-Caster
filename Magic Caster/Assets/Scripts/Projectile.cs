@@ -23,9 +23,9 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.GetComponent<EnemyController>())
         {
-
+            FindObjectOfType<EnemyController>().TakeDamage(Strength);
 
         }
         else if(bounceCount < bounceMax || !collision.CompareTag("Player"))

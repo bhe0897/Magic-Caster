@@ -18,6 +18,8 @@ public class BirdController : EnemyController
     private float startingX;
     public float Range = 10;
 
+    public GameObject WingPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -70,11 +72,15 @@ public class BirdController : EnemyController
     
     public override void Die()
     {
-        throw new System.NotImplementedException();
+        if(Random.Range(0,1f) > 0.5f)
+            Instantiate(WingPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     public override void TakeDamage(float damage)
     {
-        throw new System.NotImplementedException();
+        Health -= damage;
+        Debug.Log("Bird Health: " + Health);
+        if (Health <= 0) Die();
     }
 }

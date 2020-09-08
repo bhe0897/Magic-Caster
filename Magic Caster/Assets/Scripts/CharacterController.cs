@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour
 {
+    public static int WingsCount, FlowersCount, ShieldCount;
+    
+
     public float WalkSpeed = 5;
     public float RunSpeed = 10;
     private float moveSpeed;
@@ -17,6 +21,9 @@ public class CharacterController : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody2D>();
+        GameObject.FindGameObjectWithTag("WingText").GetComponent<Text>().text = WingsCount.ToString();
+        GameObject.FindGameObjectWithTag("ShieldText").GetComponent<Text>().text = ShieldCount.ToString();
+        GameObject.FindGameObjectWithTag("FlowerText").GetComponent<Text>().text = FlowersCount.ToString();
 
     }
 
@@ -47,4 +54,29 @@ public class CharacterController : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Wing"))
+        {
+            WingsCount += 1;
+            GameObject.FindGameObjectWithTag("WingText").GetComponent<Text>().text = WingsCount.ToString();
+            Destroy(collision.gameObject);
+            
+        }else if (collision.CompareTag("Shield"))
+        {
+            ShieldCount += 1;
+            GameObject.FindGameObjectWithTag("ShieldText").GetComponent<Text>().text = ShieldCount.ToString();
+            Destroy(collision.gameObject);
+
+        }
+        else if (collision.CompareTag("Flower"))
+        {
+            FlowersCount += 1;
+            GameObject.FindGameObjectWithTag("FlowerText").GetComponent<Text>().text = FlowersCount.ToString();
+            Destroy(collision.gameObject);
+        }
+    }
+
+
 }
